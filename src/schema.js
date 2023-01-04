@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-cloudflare')
+const { gql } = require('@apollo/server')
 
 module.exports = gql`
   type PokemonSprites {
